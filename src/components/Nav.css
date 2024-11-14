@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+}
+.logo img {
+  height: 100px;
+  width: 200px;
+  filter: invert(100%);
+  object-fit: cover;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+nav button {
+  all: unset;
+  padding: 6px 16px;
+  background: #fed342;
+  height: 32px;
+  color: black;
+  font-weight: 500;
+}
