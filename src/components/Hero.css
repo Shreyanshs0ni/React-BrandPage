@@ -1,0 +1,65 @@
+.hero {
+  display: flex;
+  max-width: 1280px;
+  align-items: center;
+  margin: 0 auto;
+  /* height: calc(100vh - 120px); */
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+  margin: 0;
+}
+.hero p {
+  font-weight: 600;
+  max-width: 400px;
+  color: lightgray;
+}
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin: 72px 0;
+}
+.btn {
+  all: unset;
+  padding: 6px 16px;
+  background: white;
+  height: 32px;
+  color: black;
+  font-weight: 500;
+}
+.sec-btn {
+  all: unset;
+  padding: 6px 16px;
+  background: transparent;
+  border: solid 2px white;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+.font-awe {
+  display: flex;
+  gap: 10px;
+}
+
+.font-icon {
+  height: 40px;
+  width: 50px;
+  object-fit: cover;
+}
+.shop-on p {
+  font-size: 15px;
+}
+
+.hero img {
+  height: 700px;
+  transform: rotateY(180deg);
+}

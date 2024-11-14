@@ -7,8 +7,8 @@ nav {
   margin: 0 auto;
 }
 .logo img {
-  height: 100px;
-  width: 200px;
+  height: 60px;
+  width: 150px;
   filter: invert(100%);
   object-fit: cover;
 }
@@ -23,7 +23,7 @@ nav ul {
 nav button {
   all: unset;
   padding: 6px 16px;
-  background: #fed342;
+  background: white;
   height: 32px;
   color: black;
   font-weight: 500;
